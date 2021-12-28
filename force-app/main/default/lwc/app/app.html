@@ -1,0 +1,169 @@
+<template >
+    <div>
+    <div class="headerPanel_class1" >
+    <div class="container"> 
+    
+    <div class="logoPanel_item1" >
+    <div class="item"> 
+    <img src="https://elements-cover-images-0.imgix.net/8cfe4cf3-12ca-499d-aed1-47574c3cd5bf?auto=compress%2Cformat&fit=max&w=1019&s=d86e98aa5ef63eceb197a3af654a071a">
+    </div> 
+    </div>
+    
+    
+    <div class="bannerpicPanel_item2" >
+    <div class="item" style="text-align: center"> 
+    <img class="imageclass" src="https://image.freepik.com/free-vector/real-estate-creative-facebook-cover-web-banner-template_398493-24.jpg">
+    </div> 
+    </div>
+    
+    </div> 
+    </div>
+    
+    <div class="navPanel_class2" >
+    <div class="container"> 
+    <br/> 
+    <br/>
+    
+    <div class="relatedlinksheaderPanel_item3">
+    <div class="item"> Useful Links
+    </div> 
+    
+    </div>
+      <div class="navPanel_item4">
+      <div class="item"> 
+    
+        <template for:each={returnButton} for:item='button'>
+          <c-navigation buttonlabel={button.buttonlabel}  link={button.link} key={button.buttonlabel}>
+          </c-navigation>
+        </template>
+    
+    </div> 
+    </div>
+    
+    
+    
+    
+    </div>
+    </div> 
+    
+    <div class="descriptionPanel_class3">
+    <div class="container"> 
+    
+      <div class="relatedlinksPanel_item5"> 
+      <div class="item"> 
+      <a class="related" href="https://www.city-data.com/" target="_blank">Neighborhood Information</a>
+      <br/>
+      <br/>
+      <a class="related" href="https://nces.ed.gov/ccd/districtsearch/" target="_blank">School District Information</a>
+      <br/>
+      <br/>
+      <a class="related" href="https://www.lendingtree.com/home/mortgage/rates/" target="_blank">Mortgage Information</a>
+      <br/>
+      <br/>
+      </div> 
+      </div>
+    
+      <div class="descriptionPanel_item6">
+      <div class="item">
+      <article class="description">
+      HappyHome was founded in 2005 by 2 brothers in the city of Wichita, Kansas. With a lot of luck and hard work it is today a premier real estate agency in Kansas. We have 100 agents working to buy you your dream home or sell your home for the best possible price. Come to our downtown location to make your dreams come true</article>
+      </div> 
+      </div>
+    
+    </div>
+    </div>
+    
+    <div class="showcase_interestPanel_class4">
+    <div class="container"> 
+    
+      <div class="morerelatedlinksPanel_item7">
+      <div class="item"> 
+      <a class="related" href="https://smartasset.com/taxes/property-taxes" target="_blank">Property Tax Information</a>
+      <br/>
+      <br/>
+      <a class="related" href="https://weather.com/" target="_blank">Weather by Zipcode</a>
+      <br/>
+      <br/>
+      <a class="related" href="https://www.google.com/maps/" target="_blank">Driving Directions</a>
+      </div>
+      </div>
+    
+      <div class="showcaseFirstPanel_item8"> 
+      <div class="item"> 
+      <template if:true={showfeaturesb}>
+      <c-picslide></c-picslide>
+      </template>
+      </div> 
+      </div>
+    
+      <div class="showcaseSecondPanel_item9">
+      <div class="item"> 
+      <template if:true={showfeaturesc}>
+      <c-picslidetwo></c-picslidetwo>
+      </template>
+      </div> 
+      </div>
+    
+      <div class="interestformPanel_item10">
+      
+      <div class="item"> 
+      <template if:true={showfeatures}>
+      <c-form></c-form>
+      </template>
+          
+               
+      </div> 
+      </div>
+    
+    </div>
+    </div>
+    
+    <div class="websitedirectory_class5"> 
+    <div class="container"> 
+    
+    <div class="companyAddress_item11"> 
+    <div class="item">
+    
+      <article class="bottom">HappyHome</article>
+      <article class="bottom">100 Exhiliration St;</article>
+      <article class="bottom">Wichita, Kansas 67156</article>  
+    </div>
+      </div>
+      <div class="directoryLinks_item12"> 
+      <div class="item">
+      
+      <a href="url">Home</a>
+      <br/>
+      <a href="url">Listings</a>
+      <br/>
+      <a href="url">MLS Search</a>
+      <br/>
+      <a href="url">Agents</a>
+      <br/>
+      <a href="url">Contact Us</a>
+      </div>
+      
+      </div>
+      
+      <div class="directoryLinks_item13"> 
+      <div class="item">
+      
+      <a href="https://www.city-data.com/" target="_blank">Neighborhood Information</a>
+      <br/>
+      <a href="https://nces.ed.gov/ccd/districtsearch/" target="_blank">School District Information</a>
+      <br/>
+      <a href="https://www.lendingtree.com/home/mortgage/rates/" target="_blank">Mortgage Information</a>
+      </br>
+      <a href="https://smartasset.com/taxes/property-taxes" target="_blank">Property Tax Information</a>
+      <br/>
+      <a href="https://weather.com/" target="_blank">Weather by Zipcode</a>
+      <br/>
+      <a href="https://www.google.com/maps/" target="_blank">Driving Directions</a>
+      </div>
+      </div>
+     </div>
+     </div>  
+    
+    </div>
+    
+    </template>

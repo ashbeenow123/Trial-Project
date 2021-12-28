@@ -1,0 +1,18 @@
+<template>
+
+    <h1> Get Case Status from Subject</h1>
+    <template if:true={showfeatures}>
+      
+        <lightning-input label="Press enter after Subject entry" class="caseinput" type="text" value={casekey} onkeydown={handleinputChange}> 
+          
+        </lightning-input>
+      
+    </template>
+    <template if:true={caselistshare}>
+    <template for:each={caselistshare} for:item='caseinfo'>
+      <p key={caseinfo.Id} class='list'>Case Number:{caseinfo.CaseNumber}</p>
+      <p key={caseinfo.Id} class='list'> Case Status:{caseinfo.Status}</p>
+      <p key={caseinfo.Id} class='list' > Case Subject: {caseinfo.Subject} </p>
+    </template>
+    </template>
+</template>

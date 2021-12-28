@@ -1,0 +1,60 @@
+<template>
+            <h1> Looking to Buy or Sell? Let our agent contact you:</h1>  
+          
+                <template if:true={showform}>
+                   <!--<lightning-record-edit-form
+                       object-api-name={objectApiName}
+                    >
+                        <div class="slds-grid">
+                            <div class="slds-col slds-size_1-of-2">
+                                
+                                <lightning-input-field field-name="Email" value={fields.EMAIL_FIELD}></lightning-input-field>
+                                <lightning-input-field field-name="Phone" value={fields.PHONE_FIELD}></lightning-input-field>
+                                <lightning-input-field field-name="Company" value={fields.COMPANY_FIELD}></lightning-input-field>
+                                <lightning-output-field field-name="Status" value="Open-Not Contacted"></lightning-output-field>
+                                <lightning-input-field field-name="First Name" value={fields.FIRSTNAME_FIELD}></lightning-input-field>
+                                <lightning-input-field field-name="Last Name" value={fields.LASTNAME_FIELD}></lightning-input-field>
+                                
+                            </div>
+                            <div class="slds-col slds-size_1-of-2"> 
+                                <lightning-input-field field-name="Street" value={fields.Street}></lightning-input-field>
+                                <lightning-input-field field-name="City" value={fields.City}></lightning-input-field>
+                                <lightning-input-field field-name="State/Province" value={fields.State}></lightning-input-field>
+                                <lightning-input-field field-name="Zip/Postal Code" value={fields.PostalCode}></lightning-input-field>
+                                <lightning-input-field field-name="Country" value={fields.Country}></lightning-input-field>
+                                <lightning-button type="submit" name="save" label="Submit"></lightning-button>
+
+                            </div>
+                        </div>
+                    </lightning-record-edit-form>-->
+                    <div class="container">
+                        <div class="item">
+                           <label for="fn">First name   :</label><br/>
+                           <input type="text" id="fn" class="tbox" name="fname" value={fname} onchange={firstNameChangeHandler}><br/>
+                           <label for="ln">Last name    : </label><br/>
+                           <input type="text" id="ln" class="tbox" name="lname" value={lname} onchange={lastNameChangeHandler}><br/>
+                           <label for="ema">Email        : </label><br/>
+                           <input type="text" id="ema" class="tbox" name="email" value={email} onchange={emailChangeHandler}><br/>
+                           <label for="ad1"></label>Street       :</label><br/>
+                            <input type="text" id="ad1" class="tbox" name="address1" value={address1} onchange={address1ChangeHandler}><br/>
+                            <label for="cit">City         : </label><br/>
+                            <input type="text" id="cit" class="tbox" name="city" value={city} onchange={cityChangeHandler}><br/>
+                            
+                        </div>
+                            <div class="item">
+                            
+                            <label for="sta">State        :</label><br/>
+                            <input type="text" id="ad2" class="tbox" name="state" value={state} onchange={stateChangeHandler}><br/>
+                            <label for="zip">Zip Code     :</label><br/>
+                            <input type="text" id="zip" class="tbox" name="zipcode" value={zipcode} onchange={zipcodeChangeHandler}><br/>
+                            <label for="phn">Phone No     : </label><br/>
+                            <input type="text" id="phn" class="tbox" name="Ph" value={phone} onchange={phoneChangeHandler}><br/>
+                            <div class="button">
+                            <lightning-button class="slds-m-top_small" variant="brand" type="submit" name="submit" label="Submit" onclick={createLead}>
+                            </lightning-button>
+                            </div>
+                            </div>
+                             </div>
+            </template>
+              
+     </template>

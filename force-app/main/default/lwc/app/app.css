@@ -1,0 +1,105 @@
+.headerPanel_class1 { 
+    width:1392px; 
+    height:200px; 
+    } 
+    .navPanel_class2 { 
+    width:1392px; 
+    height:75px;}
+    
+    .descriptionPanel_class3 { 
+    width:1392px; 
+    height:250px;} 
+    .showcase_interestPanel_class4 { 
+    width:1392px; 
+    height:284px;} 
+    .websitedirectory_class5 { 
+    width:1392px; 
+    height:144px; 
+    background-color:grey;} 
+    .logoPanel_item1{ 
+    width:288px; 
+    height:144px;
+    background-color: white;
+    } 
+    .bannerpicPanel_item2{ 
+    width:1104px; 
+    height:200px; 
+    background-color: green;} 
+    .relatedlinksheaderPanel_item3{ 
+    width:288px; 
+    height:75px; 
+    background-color:rgb(10, 43, 10);
+    color:white;
+    font-size:25px;
+    text-align: center;
+    }
+    .navPanel_item4{ 
+    width:1104px; 
+    height:75px; 
+    background-color:rgb(165, 153, 153);
+    /*font-size: 25px;*/
+    color:maroon;} 
+    
+    .relatedlinksPanel_item5{ 
+    width:288px; 
+    height:250px; 
+    background-color:rgb(10, 43, 10);} 
+    .descriptionPanel_item6{ 
+    width:1104px; 
+    height:250px; 
+    background-color:#d4bc88;} 
+    .morerelatedlinksPanel_item7{ 
+    width:288px; 
+    height:284px; 
+    background-color:rgb(10, 43, 10);} 
+    .showcaseFirstPanel_item8{ 
+      background-color:darkgoldenrod;
+    width:302px; 
+    height:284px;} 
+    
+    .showcaseSecondPanel_item9{ 
+      background-color: darkgoldenrod;
+    width:302px; 
+    height:284px;} 
+    .interestformPanel_item10{ 
+    width:504px; 
+    height: 284px; 
+    background-color:pink; 
+    } 
+    .companyAddress_item11{
+    width:464px; 
+    height:284px;
+    padding-left:0.5in;
+    }
+    .directoryLinks_item12{ 
+    width:464px; 
+    height:284px;} 
+    .directoryLinks_item13{ 
+    width:464px; 
+    height: 284px; 
+    
+    } 
+    .container{ 
+    display:flex; 
+    justify-content:center; 
+    align-items:stretch;} 
+    .item{ 
+    flex-basis:auto; 
+    } 
+    img {object-fit: cover;}
+    .description {font-size: 18pt;
+    color:black;
+    padding-top: 0.3in;
+    margin-left: 0.3in;
+    }
+    
+    .related {font-size: 15pt;
+    color:aliceblue;
+    padding-left: 0.2in }
+    .flip {
+      width:1.5in;
+      height:0.75in;
+      background-color: maroon;
+      color:white;
+      border-radius: 2px;  
+    }

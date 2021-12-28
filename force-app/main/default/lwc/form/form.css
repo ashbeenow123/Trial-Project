@@ -1,0 +1,22 @@
+h1 {font-size:18px;
+    color:maroon;
+    text-align: center;
+        }
+h2 {font-size:14px;
+    color:black;
+    text-align: center;
+   } 
+.container{ 
+    display:flex; 
+    justify-content:center; 
+    align-items:center;} 
+.item{ 
+    flex-basis:auto; 
+    padding-bottom: 0.2in;
+    padding-right: 0.2in;
+    padding-left:0.2in;
+    }  
+.button{
+    padding-top: 0.5in;
+}    
+

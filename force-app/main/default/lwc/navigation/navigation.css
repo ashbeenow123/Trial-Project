@@ -1,0 +1,11 @@
+.navigation {
+    width:220.8px;
+    height:75px;
+    font-size: 25pt;
+    color:maroon;
+  }
+  button:hover{
+    color:green;
+    border-bottom:red 15px;
+  
+  }
